@@ -74,7 +74,7 @@ int main(int argc, char*argv[]) {
         acc_y = acc_read_acceleration('y');
         acc_z = acc_read_acceleration('z');
 
-        printf("Accélération : %.3f | Y: %.3f | Z: %.3f\n", acc_x, acc_y, acc_z);
+        printf("Accélération X: %.3f | Y: %.3f | Z: %.3f\n", acc_x, acc_y, acc_z);
 
         sleep(1);  
     }
